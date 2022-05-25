@@ -1,14 +1,8 @@
 name: 'Assign Issue to Project'
 description: 'Github Action to Assign issues to a Project'
 inputs:
-    owner:
-        description: 'Repository Owner'
-        required: true
-    repo:
-        description: 'Repository Name'
-        required: true
-    pr_number:
-        description: 'Pull Request Number'
+    org_name:
+        description: 'Organization Name'
         required: true
     token:
         description: 'GitHub API Auth Token'
